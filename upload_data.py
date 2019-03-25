@@ -29,7 +29,7 @@ with open("/Users/rl/PycharmProjects/yelp_scrap/data/yelp-restaurants.json", "r"
             "Address": item["location"],
             "Coordinates": item["coordinates"],
             "Number of Reviews": item["review_count"],
-            "Rating": item["name"],
+            "Rating": item["rating"],
             "Zip Code": item["location"]["zip_code"],
             "Cuisine": item["cuisine"]
         })
